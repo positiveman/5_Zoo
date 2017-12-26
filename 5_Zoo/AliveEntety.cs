@@ -8,9 +8,10 @@ namespace _5_Zoo
 {
     abstract class AliveEntety
     {
-        public abstract string Name { get;  set; }
-        public abstract int Age { get; set; }
-       
+        protected string Name;
+        protected int Age;
+        
+
 
     }
 }

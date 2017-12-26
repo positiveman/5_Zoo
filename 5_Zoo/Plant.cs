@@ -8,7 +8,7 @@ namespace _5_Zoo
 {
     abstract class Plant : AliveEntety
     {
-        public int height { get; set; }
+        public int Height { get; set; }
         public abstract void Growth();
     }
 }

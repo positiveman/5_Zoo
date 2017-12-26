@@ -9,8 +9,11 @@ namespace _5_Zoo
     abstract class Animal: AliveEntety
 
     {
-        public string name { get; set; }
+
+        protected int Weight;
+       
         public abstract void Say();
+
 
     }
 }
